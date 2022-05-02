@@ -16,7 +16,6 @@ The project adopts the client-server architecture with the front-end being rende
 
 https://drive.google.com/file/d/1IXGfLqT3ikd8RWy7iNDO2lhZObOx_uGz/view?usp=sharing
 
-<br></br>
 
 ## Functional Pages
 ### Home page
@@ -40,12 +39,7 @@ The user can input a U.S zip code and select a specific vaccine medicine, the ap
 
 ### Find Urgent Care Facilities page
 The user can search urgent care facilities either by county or by keyword. By clicking one facility in the searched result, it shows the detailed information in the bottom of the page and also gives 8 nearby facilities that the user might also be interested in.
-<br></br>
 
-
-
-
-<br></br>
 
 ## Co-developers
 
@@ -56,7 +50,6 @@ The user can search urgent care facilities either by county or by keyword. By cl
 |Shentong Lu | PP-Papa |
 |Bing Yang | coldstaryb |
 
-<br></br>
 ## Package Dependency
 
 Download and install the basic dependencies into the node_modules folder under both server folder and client folder
@@ -64,7 +57,6 @@ Download and install the basic dependencies into the node_modules folder under b
     npm install
 
 
-<br></br>
 ## Database Credentials
 
     "rds_host": "cis550database-1.csahpvg4jbzs.us-east-1.rds.amazonaws.com",
