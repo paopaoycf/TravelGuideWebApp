@@ -1,0 +1,62 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.13",
+    "chart.js": "^3.7.1",
+    "d3-fetch": "^1.1.2",
+    "d3-format": "^3.0.1",
+    "d3-geo": "^3.0.1",
+    "d3-scale": "^3.1.0",
+    "google-maps-react": "^2.0.6",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.1",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^3.0.4",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^4.1.0",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-simple-maps": "^2.3.0",
+    "react-tooltip": "^4.2.21",
+    "react-vis": "^1.11.7",
+    "reactstrap": "^9.0.1",
+    "shards-react": "^1.0.3",
+    "us-state-converter": "^1.0.6",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

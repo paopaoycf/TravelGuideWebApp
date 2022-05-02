@@ -1,0 +1,129 @@
+/* author: paopaoycf */
+
+.homepage{
+  background: #e1e1e1;
+  height: 100%;
+}
+.site-card-wrapper {
+    padding: 10px;
+    background: #ececec;
+  }
+
+.site-card-wrapper22 {
+    /* padding: 5px; */
+    /* padding-top: 0px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #ececec;
+  }
+
+.combined-wrapper {
+    padding: 0;
+    /* background: linear-gradient(135deg, #329fff 1%, #8c00ff 100%); */
+    /* background-image: url("./images/COVID-19_banner_2021.jpg"); */
+    /* background-image: url("./images/covid-19-ucw-banner.jpg"); */
+    background-image: url("./images/covid-19-ucw-banner_cutted.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-color: #cccccc; */
+    height: 330px;
+    position: relative;
+    width: 100%;
+  }
+
+.combined-reload {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+  }
+
+.combined {
+    color: #fff;
+    width: 540px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+.combined-shape {
+    position: relative;
+  }
+
+.combined-shape > * {
+    width: 50%;
+    height: 64px;
+    position: absolute;
+    overflow: hidden;
+  }
+
+.combined-shape > * > * {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+
+.combined-shape .shape-left {
+    left: 0;
+  }
+
+.combined-shape .shape-right {
+    right: 0;
+  }
+
+.combined .title {
+    font-size: 50px;
+    letter-spacing: 6px;
+    position: absolute;
+    width: 540px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.combined-bar {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+  }
+
+.combined .content {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 78px;
+  }  
+
+.internationalPicture{
+  padding: 0;
+  background-image: url("./images/internationalTravel.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;   
+}
+
+.contentHomepage{
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-bottom: 3%;
+  background-color: rgba(255,255,255,0.6);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  height: 100%;
+  width: 95%;
+}
+
+.domesticPicture{
+  padding: 0;
+  background-image: url("./images/domestic-travel.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;   
+}
+

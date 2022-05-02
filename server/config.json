@@ -1,0 +1,9 @@
+{
+    "rds_host": "cis550database-1.csahpvg4jbzs.us-east-1.rds.amazonaws.com",
+    "rds_port": "3306",
+    "rds_user": "paopaoycf",
+    "rds_password" : "Ilovecis550",
+    "rds_db": "TravelCovid",
+    "server_host": "127.0.0.1",
+    "server_port":"8080"
+}
