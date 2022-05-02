@@ -1,6 +1,6 @@
 # Web App: Travel Guide In Covid
 
-## Project Introduction
+## Introduction
 <b>Travel Guide in Covid</b>, is an interactive web application that allows users to view and search for COVID-19 related travel information, including:
 * <i>For trip planning: </i> 
 Check recent COVID situation and travel restrictions both internationally by country or
@@ -8,6 +8,13 @@ domestically by U.S. states;
 * <i>Before the trip: </i> Search COVID-19 vaccine provider locations which helps the user to make an
 appointment.
 * <i>During the trip (only for domestic travel):</i> Find an urgent care facility if you need medical assistance.
+
+## System Architecture
+The project adopts the client-server architecture with the front-end being rendered by the framework of React for its efficient virtual DOM that keeps track of web page updates with light-weight javascript objects as well as the Diffing Algorithm. Additionally, the independent components and abundant open-source APIs guarantee a productive and professional development environment. The server was implemented with the methods of express, mysql, and cors, which support the asynchronous single-threaded communications between the client and the databases. The relational databases (RD) instance of MySQL was created and hosted on the cloud platform of Amazon Web Services (AWS) with 20 Gib of allocated disk space and supports inbound/outbound of ipv4 and ipv6 internet communication. 
+
+## Demo video
+
+<br></br>
 
 ## Functional Pages
 ### Home page
@@ -31,34 +38,28 @@ The user can input a U.S zip code and select a specific vaccine medicine, the ap
 
 ### Find Urgent Care Facilities page
 The user can search urgent care facilities either by county or by keyword. By clicking one facility in the searched result, it shows the detailed information in the bottom of the page and also gives 8 nearby facilities that the user might also be interested in.
+<br></br>
 
-## System Architecture
-The project adopts the client-server architecture with the front-end being rendered by the framework of React for its efficient virtual DOM that keeps track of web page updates with light-weight javascript objects as well as the Diffing Algorithm. Additionally, the independent components and abundant open-source APIs guarantee a productive and professional development environment. The server was implemented with the methods of express, mysql, and cors, which support the asynchronous single-threaded communications between the client and the databases. The relational databases (RD) instance of MySQL was created and hosted on the cloud platform of Amazon Web Services (AWS) with 20 Gib of allocated disk space and supports inbound/outbound of ipv4 and ipv6 internet communication. 
+
 
 
 <br></br>
 
 ## Co-developers
 
-* Team Name: CA Squad
-
-* Team Members:
-
 | Name | GitHub Username |
-| :---: | :---: | :--
+| :---: | :---: |
 |Chenfei Yu | paopaoycf |
 |Leyi Cao | leyicao |
 |Shentong Lu | PP-Papa |
 |Bing Yang | coldstaryb |
 
-
+<br></br>
 ## Package Dependency
 
 Download and install the basic dependencies into the node_modules folder under both server folder and client folder
 
     npm install
-
-
 
 
 <br></br>
