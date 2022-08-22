@@ -14,7 +14,7 @@ The project adopts the client-server architecture with the front-end being rende
 
 ## Demo video
 
-https://drive.google.com/file/d/1IXGfLqT3ikd8RWy7iNDO2lhZObOx_uGz/view?usp=sharing
+https://drive.google.com/file/d/1FUos20K5kEArOTG0tJRYowBJOjawt5ta/view?usp=sharing
 
 
 ## Functional Pages
