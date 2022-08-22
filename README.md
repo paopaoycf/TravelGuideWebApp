@@ -43,12 +43,12 @@ The user can search urgent care facilities either by county or by keyword. By cl
 
 ## Co-developers
 
-| Name | GitHub Username |
-| :---: | :---: |
-|Chenfei Yu | paopaoycf |
-|Leyi Cao | leyicao |
-|Shentong Lu | PP-Papa |
-|Bing Yang | coldstaryb |
+| Name | GitHub Username | Responsibilities |
+| :---: | :---: | :---: |
+|Chenfei Yu | paopaoycf | findVaccineProvider(fullstack), findUrgentCare(fullstack） |
+|Shentong Lu | PP-Papa | domesticStat(fullstack)|
+|Leyi Cao | leyicao | internationalStat(frontend) | 
+|Bing Yang | coldstaryb | internationalStat(backend) | 
 
 ## Package Dependency
 
